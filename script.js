@@ -11,14 +11,17 @@ function generate() {
             document.getElementById("prompt").innerHTML = "Tie";
             document.getElementById("sidebar1").style.backgroundImage = "url('okay.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('okay.gif')";
+            document.body.style.backgroundImage = "url('okay.gif')";
         }else if(play == 2) {
             document.getElementById("prompt").innerHTML = "Congratulations, You Won!";
             document.getElementById("sidebar1").style.backgroundImage = "url('congrats.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('congrats.gif')";
+            document.body.style.backgroundImage = "url('congrats.gif')";
         }else{
             document.getElementById("prompt").innerHTML = "You Lose";
             document.getElementById("sidebar1").style.backgroundImage = "url('wrong.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('wrong.gif')";
+            document.body.style.backgroundImage = "url('wrong.gif')";
         }
     } else if (computer == 2) {
         player2.style.backgroundImage = "url('hand.png')";
@@ -26,14 +29,17 @@ function generate() {
             document.getElementById("prompt").innerHTML = "You Lose";
             document.getElementById("sidebar1").style.backgroundImage = "url('wrong.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('wrong.gif')";
+            document.body.style.backgroundImage = "url('wrong.gif')";
         }else if(play == 2) {
             document.getElementById("prompt").innerHTML = "Tie";
             document.getElementById("sidebar1").style.backgroundImage = "url('okay.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('okay.gif')";
+            document.body.style.backgroundImage = "url('okay.gif')";
         }else{
             document.getElementById("prompt").innerHTML = "Congratulations, You Won!";
             document.getElementById("sidebar1").style.backgroundImage = "url('congrats.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('congrats.gif')";
+            document.body.style.backgroundImage = "url('congrats.gif')";
         }
     } else {
         player2.style.backgroundImage = "url('scissors.jpg')";
@@ -41,15 +47,17 @@ function generate() {
             document.getElementById("prompt").innerHTML = "Congratulations, You Won!";
             document.getElementById("sidebar1").style.backgroundImage = "url('congrats.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('congrats.gif')";
-            
+            document.body.style.backgroundImage = "url('congrats.gif')";
         }else if(play == 2) {
             document.getElementById("prompt").innerHTML = "You Lose";
             document.getElementById("sidebar1").style.backgroundImage = "url('wrong.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('wrong.gif')";
+            document.body.style.backgroundImage = "url('wrong.gif')";
         }else{
             document.getElementById("prompt").innerHTML = "Tie";
             document.getElementById("sidebar1").style.backgroundImage = "url('okay.gif')";
             document.getElementById("sidebar2").style.backgroundImage = "url('okay.gif')";
+            document.body.style.backgroundImage = "url('okay.gif')";
         }
     }
 }

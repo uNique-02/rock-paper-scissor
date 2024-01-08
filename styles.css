@@ -6,6 +6,7 @@ body{
     color: rgb(243, 243, 11);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     background-color: rgb(63, 0, 122);
+    background-image: url("Okay.gif");
 }
 
 .container{
@@ -25,12 +26,12 @@ body{
 
 .buttons{
     display: flex;
-    gap: 100px;
+    gap: 4em;
 }
 
 button{
-    width: 100px;
-    height: 100px;
+    width: 5em;
+    height: 5em;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -56,7 +57,7 @@ button:hover{
 .output{
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 5em;
     margin-top: -50px;
 }
 .output button{
@@ -73,14 +74,12 @@ button:hover{
 
 #sidebar1, #sidebar2{
     background-color: yellow;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     background-image: url("okay.gif");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     margin-top: -50px;
-    margin-left: -300px;
-    margin-right: -300px;
     z-index: -1;
 }
